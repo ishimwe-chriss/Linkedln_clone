@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-left">
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt=""
+        /></a>
+        <div class="search-box">
+          <img src="images/search.png" alt="" />
+          <input type="text" placeholder="search" />
+        </div>
+      </div>
+      <div class="nav-center">
+        <ul>
+          <li>
+            <a href="#" class="active-link"
+              ><img src="images/home.png" alt="" /> <span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/network.png" alt="" /><span>My Network</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/jobs.png" alt="" /><span>Jobs</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/message.png" alt="" /><span>Messaging</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/notification.png" alt="" /><span
+                >Notifications</span
+              ></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="online">
+          <img
+            src="images/Poster & Art Prints - Echte Wandbilder online kaufen _ Printler.jpg"
+            alt=""
+            onclick="toggleMenu()"
+          />
+        </div>
+      </div>
+
+      <!---Profile Drop-down Menu------------>
+      <div class="profile-menu-wrap" id="profileMenu">
+        <div class="profile-menu">
+          <div class="user-info">
+            <img
+              src="images/Poster & Art Prints - Echte Wandbilder online kaufen _ Printler.jpg"
+              alt=""
+            />
+            <div>
+              <h3>Ishimwe Christian</h3>
+              <a href="#">see your profile</a>
+            </div>
+          </div>
+          <hr />
+          <a href="#" class="profile-menu-link">
+            <img src="images/feedback.png" alt="" />
+            <p>Give Feedback</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/setting.png" alt="" />
+            <p>Settings & Privacy</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/help.png" alt="" />
+            <p>Help & Support</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/display.png" alt="" />
+            <p>Diaplay & Accessibility</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/logout.png" alt="" />
+            <p>Logout</p>
+            <span>></span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!---End of Navigation Bar------>
+
+    <div class="container">
+      <div class="profile-main">
+        <div class="profile-container">
+          <img
+            src="images/Planos de preços _ Freepik.jpg"
+            alt="background"
+            width="100%"
+          />
+          <div class="profile-container-inner">
+            <img
+              src="images/Poster & Art Prints - Echte Wandbilder online kaufen _ Printler.jpg"
+              alt=""
+              class="profile-pic"
+            />
+            <h1>Ishimwe Christian</h1>
+            <b>Software Engineering Student at AUCA</b>
+            <p>Kigali, Rwanda &middot; <a href="#">Contact info</a></p>
+            <div class="mutual-connection">
+              <a href="#">1 connection</a>
+            </div>
+            <div class="profile-btn">
+              <a href="#" class="primary-btn" id="one">Open to</a>
+              <a href="#" class="primary-btn" id="two">Add profile section</a>
+              <a href="#" class="primary-btn" id="three">More</a>
+            </div>
+          </div>
+        </div>
+        <div class="profile-description">
+          <h2>About</h2>
+          <p>
+            I am an HR personnel with over 9 years’ experience in Learning and
+            Development, Performance Management, and <br />
+            Recruitment. Having worked in diverse sectors with major regional
+            and international organizations, this has helped me to <br />
+            have a global outlook on talent growth and development.
+          </p>
+          <a href="#" class="see-more-link">See More....</a>
+        </div>
+        <div class="profile-description">
+          <h2>Experience</h2>
+          <div class="profile-desc-row">
+            <img src="images/microsoft.png" alt="" />
+            <div>
+              <h3>Lead Front-End Developer</h3>
+              <b>Microsoft &middot; Full-time</b>
+              <b>Feb 2022 - Present &middot; 1.5 years</b>
+              <p>
+                Computer programming is the process of performing a particular
+                <br />
+                computation, usually by designing and building an executable
+                computer <br />
+                programming
+              </p>
+              <hr>
+            </div>
+          </div>
+          <div class="profile-desc-row">
+            <img src="images/slack.png" alt="" />
+            <div>
+              <h3>Full Stack Developer</h3>
+              <b>Slack &middot; Full-time</b>
+              <b>June 2022 - Present &middot; 2.5 years</b>
+              <p>
+                Computer programming is the process of performing a particular
+                <br />
+                computation, usually by designing and building an executable
+                computer <br />
+                programming
+                <hr>
+              </p>
+            </div>
+          </div>
+          <div class="profile-desc-row">
+            <img src="images/google.png" alt="" />
+            <div>
+              <h3>Web Developer</h3>
+              <b>Google &middot; Full-time</b>
+              <b>Feb 2020 - may 2021 &middot; 1.5 years</b>
+              <p>
+                Computer programming is the process of performing a particular
+                <br />
+                computation, usually by designing and building an executable
+                computer <br />
+                programming
+              </p>
+            </div>
+          </div>
+          <hr>
+          <a href="#" class="experience-link">Show all 7 Experiences <img src="images/right-arrow.png" alt=""></a>
+        </div>
+        <div class="profile-description">
+          <h2>Education</h2>
+          <div class="profile-desc-row">
+            <img src="images/auca.png" alt="">
+           <div>
+            <h3>Adventist University of Central Africa</h3>
+            <b>Software Engineering</b>
+            <b>2022 - 2025</b>
+          
+           </div>
+          </div>
+        </div>
+        <div class="profile-description">
+          <h2>Skills</h2>
+          <a href="#" class="skills-btn">Leadership</a>
+          <a href="#" class="skills-btn">Web Design</a>
+          <a href="#" class="skills-btn">Development</a>
+          <a href="#" class="skills-btn">Communication</a>
+          <a href="#" class="skills-btn">UI/UX</a>
+          <a href="#" class="skills-btn">Planning</a>
+          <a href="#" class="skills-btn">Javascript</a>
+        </div>
+        <div class="profile-description">
+          <h2>Languages</h2>
+          <a href="#" class="lang-btn">English</a>
+          <a href="#" class="lang-btn">Swahili</a>
+          <a href="#" class="lang-btn">Kinyarwanda</a>
+        </div>
+      </div>
+      <!---Profile Sidebar-->
+      <div class="profile-sidebar">
+        <div class="right-side">
+          <div class="ads">
+            <a href="#"> <img src="images/ad.png" alt="" /></a>
+          </div>
+          <div class="Add-to-feed">
+            <img src="images/more.png" alt="" class="info-icon" />
+            <h1>People you May Know</h1>
+            <a href="#"
+              ><img src="images/google.png" alt="" />
+              <div class="text-container">
+                <span class="title">Google for Developers</span>
+                <span class="subtitle">Company Computer Software</span>
+              </div>
+            </a>
+            <div class="follow_button">
+              <a href="#" class="follow-link"
+                ><i class="fa-solid fa-plus"></i> Connect</a
+              >
+            </div>
+            <a href="#"
+              ><img src="images/mtn.jpg" alt="" />
+              <div class="text-container">
+                <span class="title">MTN Rwanda</span>
+                <span class="subtitle">Company Telecomunications</span>
+              </div>
+            </a>
+            <div class="follow_button">
+              <a href="#" class="follow-link"
+                ><i class="fa-solid fa-plus"></i> Connect</a
+              >
+            </div>
+  
+            <a href="#"
+              ><img src="images/guy.jpg" alt="" />
+              <div class="text-container">
+                <span class="title">Elie Habimana</span>
+                <span class="subtitle">Company Computer Software</span>
+              </div>
+            </a>
+            <div class="follow_button">
+              <a href="#" class="follow-link"
+                ><i class="fa-solid fa-plus"></i>Connect</a
+              >
+            </div>
+  
+            <a href="#" class="read-more"> View All Recommendations</a>
+          </div>
+  
+          <div class="useful-links">
+            <a href="#">About</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy & Terms</a>
+            <a href="#">Ad Choices</a>
+            <a href="#">Advertising</a>
+            <a href="#">Business Service</a>
+            <a href="#">Get the Linkedln app</a>
+            <a href="#">More</a>
+  
+            <div class="copyright">
+              <img src="images/logo.png" alt="" />
+              <p>LinkedIn Corporation &#169; 2024</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
